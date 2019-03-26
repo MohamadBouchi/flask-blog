@@ -1,6 +1,5 @@
 from flask import Flask, render_template, url_for
 
-
 app = Flask(__name__)
 
 
@@ -14,6 +13,12 @@ posts = [
     {
         'author': 'author2',
         'title': 'post2',
+        'content': 'content2',
+        'date_posted': 'april 22, 2019'
+    },
+    {
+        'author': 'author3',
+        'title': 'post3',
         'content': 'content2',
         'date_posted': 'april 22, 2019'
     }
@@ -33,3 +38,5 @@ def about():
 
 if __name__ == '__main__':
     app.run(debug=True)
+
+video 3
