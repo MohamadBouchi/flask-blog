@@ -1,0 +1,11 @@
+version: '3.4'
+
+services:
+    blog:
+        image: mohamedsubhi/flask_blog
+        restart: always
+        build: .
+        volumes:
+            - .:/usr/src/app
+        ports:
+            - 5000:5000
