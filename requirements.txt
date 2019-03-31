@@ -10,3 +10,4 @@ Werkzeug==0.15.1
 WTForms==2.2.1
 flask-bcrypt
 flask-login
+Pillow
